@@ -33,3 +33,17 @@ that is an obtuse triangle
 
 
 """
+x = input('the largest number x:')
+y = input('y:')
+z = input('z:')
+
+x =float(x)
+y =float(y)
+z =float(z)
+
+if x**2 == (y**2) + (z**2):
+    print(' that is a right trigle')
+elif x**2 > (y**2) + (z**2):
+    print('that is a acute trugle')
+else:
+    print('that is an obtuse triangle')
